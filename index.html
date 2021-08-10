@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Efren</title>
+    
+    <! ----- Javascript Tags------->
+    <script src="js/main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css"></Link>
+</head>
+<body class="body" id="parallax" >
+    
+    <div class="container" id="navbarContainer" > 
+        <div class="nav" >
+            &nbsp;
+        </div>
+      
+        <div class="nav2" >
+    
+
+                <a  href="#home">   
+                    <div class="linkOne" onclick="routeHome()" >
+                        <h2 onclick="routeHome()" >Home</h2>
+                    </div>
+                </a>
+
+            
+                <div class="linkTwo"  onclick="routeProjects()" >
+                    <h2  onclick="goProjects()">Pictures</h2>
+                </div>
+            
+            
+                <div class="linkThree" onclick="routeContact()" >
+                    <h2 onclick="goContact()">RSVP</h2>
+                </div>
+
+            <!-- <a  href="./assets/img/Resume.pdf" target="_blank">   
+                <div class="link" href="#resume" >
+                    <h2>Resume</h2>
+                </div>
+            </a> -->
+    
+    
+            
+      
+        </div>
+      
+      </div>
+
+         <div id="home"  class="container" >
+            <p class= "welcome" >Efren & Shika</p>
+            <p class= "welcome2" >October 2, 2021</p>
+        
+            <div class="back" > 
+                <div class="headerBack">
+                    <div class="oneback">
+                        &nbsp;
+                    </div>
+                    <div class="twoback">
+                        &nbsp;
+                    </div>
+                    <div class="threeback">
+                        &nbsp;
+                    </div>
+                </div>
+            </div>
+
+                <div class="onecircle" >
+                    &nbsp;
+                </div>
+        
+                <div class="twocircle" >
+                    &nbsp;
+                </div>
+        </div>    
+              
+        <div  class="container" id="projects" >
+
+                    <div id="title" >
+                      Projects
+                    </div>
+                  
+                      <div class="projectSection" >
+                  
+                       <center>  <div class="projectHeader" >Pictures</div></center>
+                  
+                        <section  > 
+                                <div class="projects"> 
+                                       
+                                                        
+                                             <img  src="./assets/img/Shika/thumbnail_IMG_1135.jpg"  class="img"  /> 
+                                                
+                                            
+                                    </div>
+                            <div class="projects"> 
+                                <div  class="twentyfive"> 
+                                    
+                                </div>
+                                <img  src="./assets/img/Shika/thumbnail_IMG_1136.jpg"  class="img"  /> 
+                            </div>
+                            <div class="projects"> 
+                             
+                                <img  src="./assets/img/Shika/thumbnail_IMG_1137.jpg"  class="img"  /> 
+                                
+                            </div>
+                            <div class="projects"> 
+                               
+                                    
+                                    <img  src="./assets/img/Shika/thumbnail_IMG_1138.jpg"  class="img"  /> 
+                            </div>
+
+
+                            
+                            
+                     
+                        </section>
+                    
+                      </div>
+                      
+        </div>
+
+
+       
+        <section id="contact">
+                <div id="title" >
+                        About
+                      </div>
+            <div class="container" id="contactBG" > 
+                   
+                   <div class="row">              
+                     
+
+
+                   
+                     
+                     <div class="aboutDiv">
+                         <h3 class="inputHeader" >RSVP</h3>
+                         <form action="http://cl.exct.net/DEManager.aspx" name="subscribeForm" method="post">
+                            <input type="hidden" name="_clientID" value="515006963" />
+                            <input type="hidden" name="_deExternalKey" value="B62E456D-A9D0-4F83-8E28-4BA280355002" />
+                            <input type="hidden" name="_action" value="add" />
+                            <input type="hidden" name="_returnXML" value="0" />
+                            <input type="hidden" name="_successURL" value="www.google.com" />
+                            <input type="hidden" name="_errorURL" value="www.google.com" />
+                            <input type="hidden" name="Going" class="input" placeholder="True">1<br />
+                            
+                            <input type="text" name="First Name" class="input" placeholder="First Name"
+                            required
+                            data-validation-required-message="Please enter your First name"
+                            ><br />
+                            <p ></p>
+                            <input type="text" name="Last Name"  class="input" placeholder="Last Name"><br />
+                            <p ></p>
+                            <input type="text" name="Email" class="input" placeholder="Email"
+                            required
+                            data-validation-required-message="Please enter your Email"
+                            ><br />
+                            <p ></p>
+                            <input type="Phone" name="Phone" class="input" placeholder="Phone"><br />
+                            <p ></p>
+                            <input type="Number" name="Adults" class="input" placeholder="Adults"
+                            required minlength="1" maxlength="6"
+                            data-validation-required-message="At least one Adult"
+                            ><br />
+                            <p ></p>
+                            <input type="Number" name="Children" class="input" placeholder="Children"
+                            required minlength="0" maxlength="10"
+                            data-validation-required-message="Choose amount of Childrens"
+                            ><br />
+                            <p ></p>
+                            <textarea class="input" rows="7" placeholder="Your Message" id="message" name="Note"></textarea>
+                            
+                            
+                            <button class="contactButton" type="submit" >
+                                Send Message
+                                </button>
+                        </form>
+         
+                        <form action="https://formspree.io/efrenmedina@live.com" method="POST" target="_blank" >
+                        <div >
+                            <div >
+                                
+                                <input
+                                type="text"
+                                class="input"
+                                placeholder="Your Name"
+                                id="name"
+                                required
+                                data-validation-required-message="Please enter your name"
+                                name="name"
+                                >
+                            <p ></p>
+                            </div>
+                        </div>
+                        <div >
+                            <div >
+                            
+                            <input
+                                type="email"
+                                class="input"
+                                placeholder="Your Email"
+                                id="email"
+                                required
+                                data-validation-required-message="Please enter your email"
+                                name="_replyto">
+                            <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div >
+                            <div >
+                            <textarea
+                                class="input"
+                                rows="7"
+                                placeholder="Your Message"
+                                id="message"
+                                required
+                                data-validation-required-message="Please leave a message"
+                                name="message"
+                            ></textarea>
+                            <p></p>
+                            </div>
+                        </div>
+                        <div>
+                            <div ></div>
+                            <button class="contactButton" type="submit" >
+                            Send Message
+                            </button>
+                        </div>
+                        </form>
+                         </div>
+                         </div>
+         
+                       </div>
+
+
+         
+         </section>
+         
+         
+
+
+        <div class="streakOne" >
+            &nbsp;
+        </div>  
+
+        <div class="streakTwo" >
+            &nbsp;
+        </div>  
+
+        <div class="streakThree" >
+            &nbsp;
+        </div>  
+
+        <div class="streakFour" >
+            &nbsp;
+        </div>  
+
+        <div class="streakFive" >
+            &nbsp;
+        </div> 
+        
+        <div class="streakSix" >
+            &nbsp;
+        </div>
+        
+        <div class="streakSeven" >
+            &nbsp;
+        </div>    
+
+
+       
+        
+
+
+
+
+     
+
+</body>
+</html>

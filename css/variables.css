@@ -1,0 +1,83 @@
+:root {
+    --one: #b5d1ff;
+    --one: #8cb5f8;
+    --two: #c7dfcf;
+    --three: #dddbdb;
+  }
+
+.container{
+    display: table;
+    width: 100%;
+    left: 0;
+    top: 0;
+    
+    
+}
+
+.container-fluid{
+    display: table;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    
+}
+
+.two{
+    width: 50%;
+    float: left;
+    display: table-cell;
+}
+
+
+.three{
+    width: 33%;
+    float: left;
+    display: table-cell;
+}
+
+.four{
+    width: 25%;
+    float: left;
+    display: table-cell;
+}
+
+.five{
+    width: 20%;
+    float: left;
+    display: table-cell;
+}
+
+.five{
+    width: 20%;
+    float: left;
+    display: table-cell;
+}
+
+.six{
+    width: 16%;
+    float: left;
+    display: table-cell;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--one); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--one1); 
+  }

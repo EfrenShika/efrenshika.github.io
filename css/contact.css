@@ -1,0 +1,132 @@
+
+    
+#contact{
+    display: none;
+}
+ 
+.aboutDiv{
+        width: 30%;
+        float: center;
+        margin-right: 1.5%;
+        margin-bottom: 1.5rem;
+        height: 72vh;
+        margin: auto;
+    }
+
+.input{
+        width: 100%;
+        background-image: linear-gradient(-90deg,  var(--three), var(--one));
+        color: white;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border: 0px;
+        font-size: 1rem;
+    }
+    .inputHeader{
+        width: 100%;
+        color: white;
+        background-image: linear-gradient(-90deg,  var(--three), var(--one));
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 0.5rem 0.5rem 0rem 0rem;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: white;
+        opacity: 1; /* Firefox */
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+#contactBG{
+    /* background-image: url("../assets/img/contact.jpg"); */
+  
+    /* Set a specific height */
+    height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
+    padding-top: 10vh;
+
+}
+
+.contactButton{
+    background-image: linear-gradient(-90deg,  var(--three), var(--one));
+    border-radius: 20px;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0px;
+    font-size: 1.2rem;
+    box-shadow: 0 1vw 2vw 0 rgba(0, 0, 0, 0.497);
+
+  }
+
+  .contactButton:hover{
+    cursor: pointer;
+    font-size: 1.3rem;
+  }
+
+  .aboutme{
+      background-color: white;
+      color: black;
+      padding: 1rem;
+      border-radius: 1rem;
+      box-shadow: 0 2vw 4vw 0 rgba(0, 0, 0, 0.497), 0 2vw 4vw 0 rgba(0, 0, 0, 0.585);
+      height: 80%;
+  }
+
+  #aboutText{
+      font-size: 1rem;
+  }
+
+  @media only screen and (max-width: 1200px) {
+    #aboutText{
+        font-size: 0.9rem;
+    }
+  }
+
+  @media only screen and (max-width: 1050px) {
+    #aboutText{
+        font-size: 0.8rem;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    #aboutText{
+        font-size: 0.7rem;
+    }
+  }
+    @media only screen and (max-width: 600px) {
+        #contactBG{
+            color: white;
+            padding-top: 5vh;
+        }        
+        #aboutText{
+            font-size: 0.9rem;
+        }
+            
+            .aboutDiv{
+                width: 85%;
+                float: left;
+                display: table-cell;
+                margin-left: 4%;
+                height: auto;
+            }
+        
+            .input{
+                width: 100%;
+            }
+      }

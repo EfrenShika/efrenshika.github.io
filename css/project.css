@@ -1,0 +1,256 @@
+
+
+
+#title{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    /* background-color: #014421; */
+    background-image: linear-gradient(-90deg,  #413d56, #6ca6ba);
+    color: white;
+    font-weight: bold;
+    opacity: 0;
+    
+
+}
+
+#projects{
+    padding-bottom: 3rem;
+    display: none;
+}
+
+.projectSection{
+    margin-left: 3vw;
+    
+}
+
+.projectHeader{
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    background-color: #969696;
+    color: white;
+    width: 50rem;
+    border: solid 5px black;
+    
+}
+
+
+
+.projects{
+    width: 100%;
+    float: Center;
+    margin-bottom: 7vh;
+    text-align: center
+       
+    
+}
+
+.twentyfive{
+    width: 30%;
+    float: left;
+    display: table-cell;
+}   
+
+.seventyfive{
+    width: 50%;
+    float: left;
+    display: table-cell;
+    height: 15rem;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.993);
+
+}
+
+.seventyfive:hover{
+    box-shadow: 5px 5px 5px 5px #ff543d63;
+    cursor: pointer;
+}
+
+.img{
+    height: 40vw;
+    width: 30vw;
+    box-shadow: 0 2vw 4vw 0 rgba(0, 0, 0, 0.497), 0 2vw 4vw 0 rgba(0, 0, 0, 0.585);
+}
+
+
+.img:hover{
+
+    box-shadow: 0 3vw 6vw 0 rgba(0, 0, 0, 0.497), 0 3vw 6vw 0 rgba(0, 0, 0, 0.585);
+    cursor: pointer;
+}
+
+#poke{
+    background-color: red;
+}
+
+#dog{
+    background-color: black;
+}
+
+a { color: inherit; } 
+@media only screen and (max-width: 1000px) {
+
+    /* #title{
+        text-align: center;
+        font-size: 6vh;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    
+    } */
+    
+    .projectHeader{
+        font-size: 2.5rem;
+        width: 40rem;
+    }
+    
+    .projectSection{
+        margin-left: 3vw;
+    }
+    
+    
+    
+    .projects{
+        float: left;
+        display: table-cell;
+        margin-top: 1vh;
+    }
+    
+    .twentyfive{
+        width: 80%;
+        float: left;
+        display: table-cell;
+        text-align: center;
+        margin: 3vh;
+    }   
+    
+    .seventyfive{
+        width: 80%;
+        float: left;
+        display: table-cell;
+        border-radius: 2vw;
+        border: solid 5px black;
+        height: 15rem;
+        padding: 1rem;
+    
+    }
+    
+    .img{
+        height: 12vw;
+        width: 12vw;
+        box-shadow: 0 2vw 4vw 0 rgba(0, 0, 0, 0.497), 0 2vw 4vw 0 rgba(0, 0, 0, 0.585);
+        border-radius: 2vw;
+        border: solid 5px black
+    }
+    
+    
+    .img:hover{
+        height: 12vw;
+        width: 12vw;
+        box-shadow: 0 3vw 6vw 0 rgba(0, 0, 0, 0.497), 0 3vw 6vw 0 rgba(0, 0, 0, 0.585);
+    }
+    
+    #poke{
+        background-color: red;
+    }
+    
+    #dog{
+        background-color: black;
+    }
+    
+    a { color: inherit; } 
+    
+
+  }
+
+@media only screen and (max-width: 800px) {
+    .projectHeader{
+        font-size: 2rem;
+        width: 32rem;
+    }
+}
+
+ 
+
+@media only screen and (max-width: 600px) {
+    
+    
+
+
+/* #title{
+    text-align: center;
+    font-size: 4.5vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+
+} */
+
+.projectHeader{
+    font-size: 2rem;
+    width: 20rem;
+}
+
+
+.projectSection{
+    margin-left: 3vw;
+}
+
+
+
+.projects{
+    float: left;
+    display: table-cell;
+    margin-top: 1vh;
+}
+
+.twentyfive{
+    width: 80%;
+    float: left;
+    display: table-cell;
+    text-align: center
+}   
+
+.seventyfive{
+    width: 80%;
+    float: left;
+    display: table-cell;
+    border-radius: 2vw;
+    border: solid 5px black;
+    height: 15rem;
+    padding: 1rem;
+    text-align: center;
+    margin-left: 2vw;
+
+}
+
+.img{
+    height: 30vw;
+    width: 30vw;
+    box-shadow: 0 2vw 4vw 0 rgba(0, 0, 0, 0.497), 0 2vw 4vw 0 rgba(0, 0, 0, 0.585);
+    border: solid 5px black
+}
+
+
+.img:hover{
+    height: 30vw;
+    width: 30vw;
+    box-shadow: 0 3vw 6vw 0 rgba(0, 0, 0, 0.497), 0 3vw 6vw 0 rgba(0, 0, 0, 0.585);
+}
+
+#poke{
+    background-color: red;
+}
+
+#dog{
+    background-color: black;
+}
+
+a { color: inherit; } 
+
+  }
+
+
+ 
